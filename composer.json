@@ -1,0 +1,27 @@
+{
+  "name": "wrayward/wwrets",
+  "description": "RETS client for CraftCMS",
+  "type": "craft-plugin",
+  "authors": [
+    {
+      "name": "Wray Ward",
+      "homepage": "https://wrayward.com"
+    }
+  ],
+  "support": {
+    "email": "dev@wrayward.com"
+  },
+  "require": {
+    "craftcms/cms": "^3.1.0",
+    "troydavisson/phrets": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "wrayward\\wwrets\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "WWRets",
+    "handle": "wwrets"
+  }
+}
