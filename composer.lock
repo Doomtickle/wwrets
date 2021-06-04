@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b8e05398b0b4428f86036ffce0d05f4",
+    "content-hash": "1a6ef7b666ab590719b70d5e862f9d55",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -6414,7 +6414,55 @@
             "time": "2018-09-23T22:00:47+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "studio-stomp/phpstan-craftcms",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/studio-stomp/phpstan-craftcms.git",
+                "reference": "724275fdf6701e7a953c82286cdc8dbbbb220fbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studio-stomp/phpstan-craftcms/zipball/724275fdf6701e7a953c82286cdc8dbbbb220fbe",
+                "reference": "724275fdf6701e7a953c82286cdc8dbbbb220fbe",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "type": "phpstan-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Studio Stomp",
+                    "email": "hello@studiostomp.nl",
+                    "homepage": "https://studiostomp.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Craft CMS extension for PHPStan",
+            "homepage": "https://github.com/studio-stomp/phpstan-craftcms",
+            "keywords": [
+                "phpstan-craftcms",
+                "studio-stomp"
+            ],
+            "support": {
+                "issues": "https://github.com/studio-stomp/phpstan-craftcms/issues",
+                "source": "https://github.com/studio-stomp/phpstan-craftcms/tree/0.2.1"
+            },
+            "time": "2021-05-13T13:33:45+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],

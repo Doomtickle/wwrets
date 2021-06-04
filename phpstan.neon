@@ -1,0 +1,2 @@
+includes:
+    - vendor/studio-stomp/phpstan-craftcms/phpstan.neon

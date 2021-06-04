@@ -23,5 +23,8 @@
   "extra": {
     "name": "WWRets",
     "handle": "wwrets"
+  },
+  "require-dev": {
+    "studio-stomp/phpstan-craftcms": "^0.2.1"
   }
 }
