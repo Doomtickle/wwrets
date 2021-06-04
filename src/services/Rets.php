@@ -48,11 +48,6 @@ class Rets extends Component
             throw new \Exception('No rets session exists. Make sure your credentials are correct and you received a response from the RETS server.');
         }
 
-        return $this->session->Search($resource, $class, $query, [
-            'Count' => 1, // count and records
-            'Format' => 'COMPACT-DECODED',
-            'Limit' => 3,
-            'Select' => 'L_ListingID,L_AddressStreet'
-        ]);
+        return $this->session->Search($resource, $class, $query);
     }
 }
