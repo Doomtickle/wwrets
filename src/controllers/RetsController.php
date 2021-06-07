@@ -23,7 +23,7 @@ class RetsController extends Controller
             throw new \ErrorException('Missing appropriate query params (resource, class)');
         }
 
-        $results = $rets->login()->find($resource, $class, '(LM_Char10_2=RPLNT, GWS, RLAND),(L_TYPE_=0, 1, 2),(L_StatusCatID=1)', [
+        $results = $rets->login()->find($resource, $class, '(LM_Char10_2=RPLNT, GWS, RLAND),(L_TYPE_=0, 1, 2),(L_StatusCatID=1,3)', [
             'QueryType' => 'DMQL2',
             'Count' => 1, // count and records
             'Format' => 'COMPACT-DECODED',
